@@ -5,9 +5,9 @@ A simple user login and registration form website.
 
 ## Usage
 
-It uses a local MySQL database called "user_information" to save login information. You will have to set up a local database and change the password in the application.properties.
+It uses a sql table in phpMyAdmin to save login information. You will have to set up the Apache configuration in your XAMPP Control Panel to match the datasource location.
 
-![application.properties file](https://github.com/Fall2024-NSCC-ECampus/assignment-2-responsive-user-registration-RadicallyCoded/blob/main/sql_setup_code.png?raw=true)
+![application.properties file](sql_setup_code.png)
 
 Run the Java application and go to your browser and type
 
