@@ -9,6 +9,9 @@
 
 <div class="center">
     <h1>Welcome back! <span th:text="${userLogin}"></span></h1>
+    <form action="/logout" method="post" th:object="${logoutRequest}">
+        <input type="submit" name="logout" value="Logout">
+    </form>
 </div>
 
 </body>
